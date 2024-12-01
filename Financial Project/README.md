@@ -40,7 +40,6 @@ The automation flow is a key component of this project, designed to address the 
    - Power Automate monitors the designated folder for new emails containing financial data attachments.
    - Trigger: `When a new email arrives (V2)` action in Power Automate.
 
----
 
 #### **Step 2: Google Drive Integration**
 1. **Uploading Files**:
@@ -50,7 +49,6 @@ The automation flow is a key component of this project, designed to address the 
 2. **Folder Synchronization**:
    - The Google Drive folder acts as a centralized repository for all financial data files, ensuring that no files are missed during processing.
 
----
 
 #### **Step 3: API Connection**
 1. **Google Cloud API Setup**:
@@ -63,7 +61,6 @@ The automation flow is a key component of this project, designed to address the 
      - Downloads the latest files from the Drive folder.
      - Merges them into a single dataset for further processing.
 
----
 
 #### **Step 4: Data Processing in Python**
 1. **Data Cleaning**:
@@ -75,7 +72,6 @@ The automation flow is a key component of this project, designed to address the 
 2. **Automated File Preparation**:
    - After cleaning and transforming the data, the script saves the processed file in a location accessible by Power BI.
 
----
 
 #### **Step 5: Power BI Integration**
 1. **Dynamic Data Loading**:
@@ -85,7 +81,6 @@ The automation flow is a key component of this project, designed to address the 
 2. **Scheduled Refresh**:
    - Scheduled daily refreshes in Power BI Service to pull the latest data from Google Drive or Python output, ensuring the dashboard always displays real-time insights.
 
----
 
 #### **Step 6: Real-Time Reporting**
 1. **Automated Updates**:
@@ -93,7 +88,6 @@ The automation flow is a key component of this project, designed to address the 
 2. **Error Reduction**:
    - Eliminates manual errors by automating the entire data handling and processing workflow.
 
----
 
 ### Steps Followed in Power BI
 
@@ -115,7 +109,9 @@ The automation flow is a key component of this project, designed to address the 
      - Used distribution plots for age group analysis.
    - **Interactive Filters**:
      - Incorporated slicers for fields such as Credit Mix, Age Group, and Payment Behavior to enable customized insights.
-     
+
+---
+
 ### Calculated Columns and Measures
 
 #### **Calculated Columns**
