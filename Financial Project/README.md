@@ -1,23 +1,23 @@
-# Financial Dashboard
+# **Financial Dashboard**
 
-### Dashboard Link: 
+### **Dashboard Link:** 
 [To view Dashboard click here](https://app.powerbi.com/view?r=eyJrIjoiNDJkM2ZkNmItNjQ2Ny00YjgwLWFmMWYtMzZmNjRmMjVkNWNmIiwidCI6IjM5Y2MyYmM1LWE0MTMtNDA0NS1hNWJhLWQwMTk2OGVlMjhlZCJ9)
 
-## Problem Statement
+## **Problem Statement**
 
 The Financial Dashboard was designed to address a critical need for streamlining financial data processing and analysis. The client faced inefficiencies in handling daily data from multiple sources, leading to time delays, increased costs, and reduced accuracy. This project automates the process and delivers a dynamic Power BI dashboard for real-time financial insights.
 
 ---
 
-## Project Overview
+## **Project Overview**
 
-### Challenges Faced by the Client:
+### **Challenges Faced by the Client:**
 1. **Time-Consuming Workflow**: Daily manual downloading, merging, and cleaning of data delayed dashboard updates.
 2. **High Costs**: Hiring additional staff to meet deadlines increased monthly expenses by $12,000.
 3. **Errors in Data**: Manual manipulation led to inaccuracies in financial reporting.
 4. **Workload Management**: Other projects suffered due to the heavy workload.
 
-### Goals:
+### **Goals:**
 1. Automate data handling and integration to save time.
 2. Minimize errors in data processing.
 3. Reduce costs by eliminating manual intervention.
@@ -25,11 +25,9 @@ The Financial Dashboard was designed to address a critical need for streamlining
 
 ---
 
-### Automation Flow
+### **Automation Flow**
 
 The automation flow is a key component of this project, designed to address the client's challenges of manual data processing, time inefficiency, and high error rates. Here’s a detailed explanation of the automation workflow:
-
----
 
 #### **Step 1: Email Automation**
 1. **Custom Rule in Outlook**:
@@ -89,7 +87,7 @@ The automation flow is a key component of this project, designed to address the 
    - Eliminates manual errors by automating the entire data handling and processing workflow.
 
 
-### Steps Followed in Power BI
+### **Steps Followed in Power BI**
 
 1. **Data Integration**:
    - Connected Power BI to the Google Drive folder via Python API to automate data retrieval.
@@ -112,7 +110,7 @@ The automation flow is a key component of this project, designed to address the 
 
 ---
 
-### Calculated Columns and Measures
+### **Calculated Columns and Measures**
 
 #### **Calculated Columns**
 1. **Age Grouping**:
@@ -146,7 +144,8 @@ The automation flow is a key component of this project, designed to address the 
 4. **Loan Types Count**:
    - Created columns to categorize customers by the number of loans they held, useful for trend analysis.
 
-#### **Calculated Measures and Columns**
+
+#### **Calculated Measures**
 1. **LTV Score**:
    - Designed to evaluate customer lifetime value (LTV) using the formula:
      ```DAX
@@ -202,7 +201,6 @@ The automation flow is a key component of this project, designed to address the 
 8. **Promotional Insights**:
    - Calculated counts for each promotional tier based on LTV scores for targeted campaigns.
 
----
 
 #### **Insights Derived from Calculations**
 - Segmentation by age group and credit score helped identify high-value customer groups.
@@ -227,9 +225,9 @@ These calculated columns and measures added depth to the dashboard, ensuring mea
 
 ---
 
-## Key Deliverables
+## **Key Deliverables**
 
-### Insights from the Dashboard:
+### **Insights from the Dashboard:**
 1. **Customer Behavior**:
    - Variations in credit utilization, delays in payment, and credit card ownership by age groups.
    
@@ -247,7 +245,7 @@ These calculated columns and measures added depth to the dashboard, ensuring mea
 
 ---
 
-## Files Included
+## **Files Included**
 
 1. `financialproject.pbix`: Power BI Desktop file containing the dashboard.
 2. `Financial_Dataset_Code.ipynb`: Python script for automation and data processing.
@@ -255,7 +253,7 @@ These calculated columns and measures added depth to the dashboard, ensuring mea
 
 ---
 
-## Benefits of the Solution
+## **Benefits of the Solution**
 
 1. **Time Saved**: Automation reduced the manual workload significantly.
 2. **Cost Efficiency**: Eliminated the need for additional hires.
@@ -266,6 +264,3 @@ These calculated columns and measures added depth to the dashboard, ensuring mea
 
 Feel free to contribute, raise issues, or share feedback on this repository. Your input is valuable in enhancing this project!
 
---- 
-
-This README highlights all key aspects of your project, integrating automation, data analysis, and dashboarding as per your client's requirements.
